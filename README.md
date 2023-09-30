@@ -13,24 +13,17 @@ The main aim is to analyze and compare the efficiency of different sentence embe
 3. SentenceTransformers.
 4. Instructor.
 
-## Datasets
-
-Datasets to be used for the evaluations will include:
-
-- Stanford Natural Language Inference (SNLI): A widely recognized dataset for natural language understanding tasks. It contains pairs of sentences and labels indicating if the second sentence is an entailment, contradiction, or neutral with respect to the first one.
-
-- STS Benchmark: A standard benchmark for sentence similarity tasks. It contains pairs of sentences with similarity scores, making it useful to test how well the embeddings capture semantic meaning between sentences.
-  
-
-## Metrics
-
-### Internal Metrics:
+## Internal Metrics:
 
 - Cosine Similarity: Measures the cosine of the angle between two vectors, providing a measure of similarity.
+  
+## Benchmarks
 
 ### External Metrics (Benchmarks):
 
 - SentEval: Provides a set of tasks and corresponding datasets to evaluate the quality of sentence embeddings.
+- STS Benchmark: A standard benchmark for sentence similarity tasks. It contains pairs of sentences with similarity scores, making it useful to test how well the embeddings capture semantic meaning between sentences.
+
 
 ## Experiment Hypotheses
 
