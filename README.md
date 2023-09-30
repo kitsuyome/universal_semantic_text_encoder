@@ -39,12 +39,9 @@ Datasets to be used for the evaluations will include:
 2. **Aggregated Embeddings vs. Sentence-Specific Embeddings**:
     - Hypothesis: Sentence-specific embeddings (like SentenceTransformers) are expected to represent sentences better than aggregated word embeddings because they are designed to capture the entire sentence's semantics.
 
-3. **Effect of Model Size**:
-    - Hypothesis: Larger models might capture nuances better but might be more prone to overfitting and may not generalize as effectively on diverse datasets.
-
-4. **Domain Specificity**:
-    - Hypothesis: Models fine-tuned on domain-specific datasets might perform better for tasks within that domain compared to general pre-trained models.
-
+3. **Domain Specificity**:
+    - Hypothesis: Models fine-tuned on domain-specific datasets, including those using the Instructor method, might perform better for tasks within that domain compared to general pre-trained models.
+      
 ## Setup and Execution
 
 
