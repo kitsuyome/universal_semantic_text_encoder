@@ -17,8 +17,10 @@ The main aim is to analyze and compare the efficiency of different sentence embe
 
 Datasets to be used for the evaluations will include:
 
-- Stanford Natural Language Inference (SNLI): A widely recognized dataset for natural language understanding tasks, making it an ideal choice for evaluating the semantic understanding capabilities of embeddings.
-- STS Benchmark: A standard benchmark for sentence similarity tasks, making it useful to test how well the embeddings capture semantic meaning between sentences.
+- Stanford Natural Language Inference (SNLI): A widely recognized dataset for natural language understanding tasks. It contains pairs of sentences and labels indicating if the second sentence is an entailment, contradiction, or neutral with respect to the first one.
+
+- STS Benchmark: A standard benchmark for sentence similarity tasks. It contains pairs of sentences with similarity scores, making it useful to test how well the embeddings capture semantic meaning between sentences.
+  
 
 ## Metrics
 
@@ -28,8 +30,7 @@ Datasets to be used for the evaluations will include:
 
 ### External Metrics (Benchmarks):
 
-- SentEval: A framework for evaluating the quality of sentence embeddings using a variety of tasks.
-- BEIR: A benchmark tool for evaluating sentence embeddings in information retrieval tasks.
+- SentEval: Provides a set of tasks and corresponding datasets to evaluate the quality of sentence embeddings.
 
 ## Experiment Hypotheses
 
